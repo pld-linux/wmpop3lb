@@ -6,4 +6,6 @@ Comment[pl]=Monitor skrzynek pocztowych POP3
 Exec=wmpop3lb
 Terminal=false
 Type=Application
+Categories=Applet;
+NotShowIn=GNOME;KDE;
 # vi: encoding=utf-8
