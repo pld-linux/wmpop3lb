@@ -2,7 +2,7 @@ Summary:	Multi POP3 accounts mailbox checker
 Summary(pl):	Monitor skrzynek pocztowych POP3
 Name:		wmpop3lb
 Version:	2.4.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://lbj.free.fr/wmpop3/%{name}%{version}.tar.gz
@@ -36,7 +36,8 @@ komenda.
 
 %build
 %{__make} -C wmpop3 \
-	OPT="%{rpmcflags}"
+	OPT="%{rpmcflags}" \
+	LIBDIR="-L/usr/X11R6/%{_lib}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
