@@ -1,0 +1,10 @@
+--- wmpop3lb2.4.2/wmpop3/Makefile.orig	2004-01-18 13:32:41.000000000 +0100
++++ wmpop3lb2.4.2/wmpop3/Makefile	2004-01-18 13:56:22.000000000 +0100
+@@ -1,6 +1,6 @@
+ LIBDIR = -L/usr/X11R6/lib
+ LIBS   = -lXpm -lXext -lX11
+-FLAGS  = -g2 -D_DEBUG
++FLAGS  = $(OPT) 
+ OBJS   =	wmpop3.o \
+     	    Pop3Client.o \
+ 		    ../wmgeneral/wmgeneral.o \
