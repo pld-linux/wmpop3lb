@@ -2,7 +2,7 @@ Summary:	Multi POP3 accounts mailbox checker
 Summary(pl):	Monitor skrzynek pocztowych POP3
 Name:		wmpop3lb
 Version:	2.4.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Window Managers/Tools
 Source0:	http://lbj.free.fr/wmpop3/%{name}%{version}.tar.gz
@@ -40,10 +40,10 @@ komenda.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_applnkdir}/DockApplets}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_desktopdir}/docklets}
 
 install wmpop3/wmpop3lb $RPM_BUILD_ROOT%{_bindir}
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/DockApplets
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}/docklets
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -52,4 +52,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc CHANGE_LOG README
 %attr(755,root,root) %{_bindir}/*
-%{_applnkdir}/DockApplets/%{name}.desktop
+%{_desktopdir}/docklets/%{name}.desktop
