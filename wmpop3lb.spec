@@ -21,8 +21,6 @@ servers by selecting the mails to delete and clicking the "delete"
 button. A command can be lunched for each new mail received, for each
 selected message or for each server.
 
-
-
 %description -l pl
 WMPop3LB mo¿e po³±czyæ siê do 6 kont POP3 aby sprawdziæ czy znajduje
 siê tam nowa poczta, pobraæ z ka¿dego listu nag³ówki "Od:" i "Tytu³:"
@@ -37,8 +35,7 @@ komenda.
 %patch0 -p1
 
 %build
-cd wmpop3
-%{__make} \
+%{__make} -C wmpop3 \
 	OPT="%{rpmcflags}"
 
 %install
