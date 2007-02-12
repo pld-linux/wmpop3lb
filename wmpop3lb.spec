@@ -1,5 +1,5 @@
 Summary:	Multi POP3 accounts mailbox checker
-Summary(pl.UTF-8):   Monitor skrzynek pocztowych POP3
+Summary(pl.UTF-8):	Monitor skrzynek pocztowych POP3
 Name:		wmpop3lb
 Version:	2.4.2
 Release:	3
