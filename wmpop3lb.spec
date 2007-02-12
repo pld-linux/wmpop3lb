@@ -1,5 +1,5 @@
 Summary:	Multi POP3 accounts mailbox checker
-Summary(pl):	Monitor skrzynek pocztowych POP3
+Summary(pl.UTF-8):   Monitor skrzynek pocztowych POP3
 Name:		wmpop3lb
 Version:	2.4.2
 Release:	3
@@ -21,13 +21,13 @@ servers by selecting the mails to delete and clicking the "delete"
 button. A command can be lunched for each new mail received, for each
 selected message or for each server.
 
-%description -l pl
-WMPop3LB mo¿e po³±czyæ siê do 6 kont POP3 aby sprawdziæ czy znajduje
-siê tam nowa poczta, pobraæ z ka¿dego listu nag³ówki "Od:" i "Tytu³:"
-a nastêpnie wy¶wietliæ je w oknie. Wiadomo¶ci mog± byæ wymazane
-bezpo¶rednio z serwerów poprzez wskazanie listu do wykasowania i
-klikniêcie przycisku "delete". Dla ka¿dego nowego listu, wskazanej
-wiadomo¶ci albo dla ka¿dego serwera mo¿e byæ uruchomiona odpowiednia
+%description -l pl.UTF-8
+WMPop3LB moÅ¼e poÅ‚Ä…czyÄ‡ siÄ™ do 6 kont POP3 aby sprawdziÄ‡ czy znajduje
+siÄ™ tam nowa poczta, pobraÄ‡ z kaÅ¼dego listu nagÅ‚Ã³wki "Od:" i "TytuÅ‚:"
+a nastÄ™pnie wyÅ›wietliÄ‡ je w oknie. WiadomoÅ›ci mogÄ… byÄ‡ wymazane
+bezpoÅ›rednio z serwerÃ³w poprzez wskazanie listu do wykasowania i
+klikniÄ™cie przycisku "delete". Dla kaÅ¼dego nowego listu, wskazanej
+wiadomoÅ›ci albo dla kaÅ¼dego serwera moÅ¼e byÄ‡ uruchomiona odpowiednia
 komenda.
 
 %prep
